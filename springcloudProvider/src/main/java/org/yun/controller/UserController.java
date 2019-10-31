@@ -17,7 +17,7 @@ import java.util.UUID;
 @RequestMapping("/user")
 public class UserController {
 
-    String uuid = UUID.randomUUID().toString().replace("-", "");
+//    String uuid = UUID.randomUUID().toString().replace("-", "");
 
     @Autowired
     UserService userService;
@@ -35,7 +35,7 @@ public class UserController {
 //    public void addOrEditUser(@RequestBody UserDTO userDTO){}
     public void addUser(){
         try {
-            UserDTO userDTO = new UserDTO().builder().id(uuid).name("芸").age(18).build();
+            UserDTO userDTO = new UserDTO().builder().id(UUID.randomUUID().toString().replace("-", "")).name("芸").age(18).build();
             userService.addUser(userDTO);
         }catch (Exception e){
             e.printStackTrace();
