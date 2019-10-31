@@ -1,20 +1,17 @@
-package org.yun.entity;
-
+package org.yun.vo;
 import lombok.*;
-import javax.persistence.Table;
+
+import java.util.List;
 
 @Builder
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "user")
-public class User {
+public class UserVO {
 
     private String id;
     private String name;
     private Integer age;
-
-
 
 }

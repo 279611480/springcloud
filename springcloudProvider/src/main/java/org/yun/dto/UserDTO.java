@@ -1,6 +1,7 @@
-package org.yun.entity;
+package org.yun.dto;
 
 import lombok.*;
+
 import javax.persistence.Table;
 
 @Builder
@@ -8,13 +9,10 @@ import javax.persistence.Table;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "user")
-public class User {
+public class UserDTO {
 
     private String id;
     private String name;
     private Integer age;
-
-
 
 }
