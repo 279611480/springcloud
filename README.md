@@ -1,5 +1,9 @@
 # springcloud
+
 参考https://blog.csdn.net/u010502101/article/details/81989756    自己试验
+
+>详细  建议去看http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html
+
 
 SQL表~~
 
