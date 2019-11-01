@@ -11,6 +11,7 @@
         <module>springcloudCommon</module>
         <module>springcloudProvider</module>
         <module>springcloudConsumer</module>
+        <module>springcloudEureka1</module>
     </modules>
     <packaging>pom</packaging>
 
