@@ -29,3 +29,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:9001/eureka
+  instance:
+    instance-id: springcloudProvider8002 #修改注册服务的主机名
