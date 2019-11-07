@@ -10,7 +10,7 @@ import java.util.ArrayList;
 //启动类-创建出来的
 @SpringBootApplication
 @MapperScan("org.yun.mapper")
-@EnableEurekaClient//本服务启动后会自动注册进Eureka服务中
+@EnableEurekaClient//本服务启动后会自动注册进Eureka服务中（此处也要添加这么个注解）
 public class ProviderApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProviderApplication.class,args);
