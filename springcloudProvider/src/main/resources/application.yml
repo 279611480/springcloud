@@ -31,3 +31,10 @@ eureka:
       defaultZone: http://localhost:9001/eureka
   instance:
     instance-id: springcloudProvider8002 #修改注册服务的主机名
+    prefer-ip-address: true #修改注册进服务注册中心的微服务ip显示信息
+
+info:
+  app.name: springcloudProvider
+  company.name: org.yun.com
+  build.artifacId: $project.artifacId
+  build.version: $project.version$
